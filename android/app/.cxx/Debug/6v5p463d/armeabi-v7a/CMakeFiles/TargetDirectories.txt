@@ -1,0 +1,2 @@
+/Users/mohamedshalaby/Applications/reset_app/android/app/.cxx/Debug/6v5p463d/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/mohamedshalaby/Applications/reset_app/android/app/.cxx/Debug/6v5p463d/armeabi-v7a/CMakeFiles/rebuild_cache.dir
