@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:reset_app/core/helpers/navigation_extension.dart';
 import 'package:reset_app/core/widgets/app_text_button.dart';
+import '../../../../../core/routing/routes.dart';
 import '../../../../../core/widgets/main_appbar.dart';
 import '../widgets/otp_content.dart';
 
@@ -24,7 +26,9 @@ class OtpScreen extends StatelessWidget {
       bottomNavigationBar: BottomAppBar(
         elevation: 0.0,
         color: Colors.transparent,
-        child: AppTextButton(buttonText: 'تحقق', onPressed: () {}),
+        child: AppTextButton(buttonText: 'تحقق', onPressed: () {
+          context.pushReplacementNamed(Routes.mainNavigationBar);
+        }),
       ),
     );
   }

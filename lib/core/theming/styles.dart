@@ -11,10 +11,22 @@ class TextStyles {
     fontWeight: FontWeightHelper.bold,
     fontFamily: AppConstants.appFontFamily,
   );
+  static TextStyle font20BlackBold = TextStyle(
+    fontSize: 20.sp,
+    color: Colors.black,
+    fontWeight: FontWeightHelper.bold,
+    fontFamily: AppConstants.appFontFamily,
+  );
   static TextStyle font16WhiteRegular = TextStyle(
     fontSize: 16.sp,
     color: Colors.white,
     fontWeight: FontWeightHelper.regular,
+    fontFamily: AppConstants.appFontFamily,
+  );
+  static TextStyle font16WhiteBold = TextStyle(
+    fontSize: 16.sp,
+    color: Colors.white,
+    fontWeight: FontWeightHelper.bold,
     fontFamily: AppConstants.appFontFamily,
   );
   static TextStyle font16MainBlueBold = TextStyle(
@@ -60,6 +72,13 @@ class TextStyles {
     fontWeight: FontWeightHelper.regular,
     fontFamily: AppConstants.appFontFamily,
   );
+  static TextStyle font12WhiteRegular = TextStyle(
+    fontSize: 12.sp,
+    color: Colors.white,
+    fontWeight: FontWeightHelper.regular,
+    fontFamily: AppConstants.appFontFamily,
+  );
+
   static TextStyle font12BlackRegular = TextStyle(
     fontSize: 12.sp,
     color: Colors.black,

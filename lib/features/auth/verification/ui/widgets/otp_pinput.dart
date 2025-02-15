@@ -28,23 +28,26 @@ class OtpPinput extends StatelessWidget {
           color: ColorsManager.mainBlue,
         ),
         textStyle: defaultPinTheme.textStyle!.copyWith(color: Colors.white));
-    return Pinput(
-      length: 4,
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      controller: TextEditingController(),
-      defaultPinTheme: defaultPinTheme,
-      focusedPinTheme: focusedPinTheme,
-      submittedPinTheme: submittedPinTheme,
-      cursor: Container(
-        width: 12,
-        height: 2.5,
-        color: ColorsManager.mainBlue,
+    return Directionality(
+      textDirection: TextDirection.ltr,
+      child: Pinput(
+        length: 4,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        controller: TextEditingController(),
+        defaultPinTheme: defaultPinTheme,
+        focusedPinTheme: focusedPinTheme,
+        submittedPinTheme: submittedPinTheme,
+        cursor: Container(
+          width: 12,
+          height: 2.5,
+          color: ColorsManager.mainBlue,
+        ),
+        // validator: (s) {
+        //   return s == '123456' ? null : 'Pin is incorrect';
+        // },
+        pinputAutovalidateMode: PinputAutovalidateMode.onSubmit,
+        showCursor: true,
       ),
-      // validator: (s) {
-      //   return s == '123456' ? null : 'Pin is incorrect';
-      // },
-      pinputAutovalidateMode: PinputAutovalidateMode.onSubmit,
-      showCursor: true,
     );
   }
 }
