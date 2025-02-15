@@ -14,9 +14,21 @@ class Assets {
   /// assets/images/home-appbar.png
   static const String imagesHomeAppbar = "assets/images/home-appbar.png";
 
+  /// Assets for imagesHomeDiscover
+  /// assets/images/home-discover.png
+  static const String imagesHomeDiscover = "assets/images/home-discover.png";
+
   /// Assets for imagesHomeExperience
   /// assets/images/home-experience.png
   static const String imagesHomeExperience = "assets/images/home-experience.png";
+
+  /// Assets for imagesHomeSelectedUnits
+  /// assets/images/home-selected-units.png
+  static const String imagesHomeSelectedUnits = "assets/images/home-selected-units.png";
+
+  /// Assets for imagesHomeUnits
+  /// assets/images/home-units.png
+  static const String imagesHomeUnits = "assets/images/home-units.png";
 
   /// Assets for imagesOnboardingImage1
   /// assets/images/onboarding-image1.png
